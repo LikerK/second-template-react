@@ -3,10 +3,10 @@ import Items from "./Items";
 
 
 const MainPage = () => {
-  return <div>
+  return <>
     <Items />
     <Order />
-  </div>
+    </>
 }
 
 export default MainPage;

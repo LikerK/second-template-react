@@ -1,5 +1,14 @@
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+
 const Header = () => {
-  return <h3>Я Header!</h3>
-}
+  return (
+    <Navbar className="bg-primary mb-2 rounded-bottom">
+      <Container>
+        <Navbar.Brand className="text-white" href="#home">Fortnite</Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+};
 
 export default Header;
